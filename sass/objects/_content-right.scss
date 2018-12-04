@@ -1,0 +1,62 @@
+.content__right{
+    display: grid;
+
+    .belgium{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: 170px;
+
+        .belgium--rating{
+            background: white;
+        }
+        .belgium--engine{
+            background: yellow;
+        }
+    }
+    .opinion{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-auto-rows: 180px;
+    }
+
+    .news{
+        height: 40px;
+        background: darkslateblue;
+    }
+    .column-feature{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        background: gray;
+        grid-auto-rows: 120px;
+    }
+    .column-photo{
+        display: grid;
+        background: darkgrey;
+        grid-auto-rows: 200px;
+
+        .column-photo--image{
+            text-align: center;
+        }
+    }
+    .video-gallery{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding: 50px;
+    }
+    
+}
+.content__opinions{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows:  33.3% 33.3% 33.3%;
+    grid-gap: 10px;
+
+    .content__opinions--ex{
+        background: navajowhite;
+        padding: 5px;
+    }
+    .content__opinions--o{
+        background: navy;
+        padding: 5px;
+    }
+}

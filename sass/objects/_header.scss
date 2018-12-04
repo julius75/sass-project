@@ -1,0 +1,41 @@
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+    padding: $base-grid 0;
+    
+    .header--logo{
+        grid-row: 1/3;
+        // background: cadetblue;
+        justify-self: start;
+       
+        background: url("http://3.bp.blogspot.com/_EqZzf-l7OCg/TNmdtcyGBZI/AAAAAAAAAD8/KD5Y23c24go/s1600/homer-simpson-1280x1024.jpg") no-repeat;
+    
+        width: 100px;
+        height: 100px;
+        
+        background-size:contain;
+    }
+    .header--links{
+        justify-self: end;
+        text-transform: uppercase;
+       
+        .--link{
+            color: $color-black;
+            &:not(:last-child){
+                margin-right: $base-grid;
+
+            }
+        }
+       
+    }
+    .header--signs{
+        justify-self: end;
+    }
+    .header--flag{
+        grid-column: 1/3;
+        padding: $base-grid 0; 
+        overflow: auto;
+        
+    }
+}

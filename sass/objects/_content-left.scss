@@ -1,0 +1,77 @@
+.content--left{
+    display: grid;
+
+    .standing{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        .standing--wc{
+            background: burlywood;
+            border-right: 1px solid;
+        }
+    }
+     .adds{
+        padding: 15px;
+        background: darkslateblue;
+    }
+
+    .content--left__subdivide{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+        .subdivide--left{
+            display: grid;
+            background: burlywood;
+            border-right: 1px solid; 
+
+            .subdivide{
+                display: grid;
+                background: wheat;
+                margin-top: 1px;
+                .space{
+                    background:teal;
+                }
+               
+            }
+            .images-details{
+                 display: grid;
+                 background: gold;  
+            }
+            
+        
+        }
+        .subdivide--right{
+            background: brown;
+            display: grid;
+            .grand-prix{
+                display: grid;
+                background: whitesmoke;
+                padding: 10px;
+
+                .next{
+                    background: burlywood;
+                }
+                .previous{
+                    border-bottom: 1px solid;
+                }
+            }
+            .quotes-details{
+                display: grid;
+
+                .adds{
+                    padding: 15px;
+                    background: darkslateblue;
+                }
+                .quotes{
+                    padding: 25px;
+                    background: rebeccapurple;
+                }
+            }
+            .twitter-details{
+                display: grid;
+                background: lightblue;
+                padding: 20px;
+            }
+        }
+    }
+}

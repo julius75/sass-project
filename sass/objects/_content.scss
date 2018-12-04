@@ -1,0 +1,14 @@
+.content{
+    display: grid;
+    grid-template-columns:50% 50%;
+    background: blueviolet;
+
+    .content__right{
+        background: navajowhite;
+        border-right: 1px solid;
+        
+    }
+    .content--left{
+        background: lightblue;
+    }
+}
