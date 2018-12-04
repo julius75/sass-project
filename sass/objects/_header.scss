@@ -1,4 +1,5 @@
 .header{
+    margin: 0 $base-grid*3;
     display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: auto auto;

@@ -93,12 +93,13 @@ body {
 
 /* line 1, ../sass/objects/_header.scss */
 .header {
+  margin: 0 72px;
   display: grid;
   grid-template-columns: auto auto;
   grid-auto-rows: auto auto;
   padding: 24px 0;
 }
-/* line 7, ../sass/objects/_header.scss */
+/* line 8, ../sass/objects/_header.scss */
 .header .header--logo {
   grid-row: 1/3;
   justify-self: start;
@@ -107,26 +108,26 @@ body {
   height: 100px;
   background-size: contain;
 }
-/* line 17, ../sass/objects/_header.scss */
+/* line 18, ../sass/objects/_header.scss */
 .header .header--links {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid;
 }
-/* line 22, ../sass/objects/_header.scss */
+/* line 23, ../sass/objects/_header.scss */
 .header .header--links .--link {
   text-transform: uppercase;
   color: #000;
 }
-/* line 26, ../sass/objects/_header.scss */
+/* line 27, ../sass/objects/_header.scss */
 .header .header--links .--link:not(:last-child) {
   margin-right: 24px;
 }
-/* line 33, ../sass/objects/_header.scss */
+/* line 34, ../sass/objects/_header.scss */
 .header .header--signs {
   justify-self: end;
 }
-/* line 36, ../sass/objects/_header.scss */
+/* line 37, ../sass/objects/_header.scss */
 .header .header--flag {
   grid-column: 1/3;
   padding: 24px 0;
@@ -404,4 +405,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* line 15, ../sass/objects/_footer.scss */
+.footer .footer-align {
+  display: grid;
+  justify-items: start;
 }
