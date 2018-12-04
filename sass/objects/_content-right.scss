@@ -5,43 +5,99 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-auto-rows: 170px;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
 
         .belgium--rating{
-            background: white;
+       
+        margin: 10px;
+        text-align: start;
+        border-right: 1px solid;
+        background-image: url('../../images/one.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         }
         .belgium--engine{
-            background: yellow;
+            margin: 10px;
+            text-align: start;
+            border-right: 1px solid;
+            background-image: url('../../images/one.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
     .opinion{
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
         grid-auto-rows: 180px;
+        border-left: 1px solid;
+        .opinion--one{
+            margin: 10px;
+            text-align: start;
+            border-right: 1px solid;
+            background-image: url('../../images/three.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
     }
 
     .news{
-        height: 40px;
-        background: darkslateblue;
+        height: 80px;
+        background: lightskyblue;
+        text-align: center;
     }
     .column-feature{
         display: grid;
         grid-template-columns: 30% 70%;
-        background: gray;
         grid-auto-rows: 120px;
+        border-left: 1px solid;
+        .column-feature--image{
+            margin: 5px;
+            text-align: start;
+            border-right: 1px solid;
+            background-image: url('../../images/two.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
     .column-photo{
         display: grid;
-        background: darkgrey;
-        grid-auto-rows: 200px;
+        grid-auto-rows: 350px;
+        border-left: 1px solid;
 
         .column-photo--image{
-            text-align: center;
+            text-align: justify;
+            margin: 10px;
+            text-align: start;
+            border-right: 1px solid;
+            background-image: url('../../images/two.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
     .video-gallery{
         display: grid;
         grid-template-columns: 33.3% 33.3% 33.3%;
-        padding: 50px;
+        grid-auto-rows: 200px;
+        border-bottom: 3px solid;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        .video-gallery--one{
+            text-align: justify;
+            margin: 10px;
+            text-align: start;
+            border-right: 1px solid;
+            background-image: url('../../images/two.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
     
 }
