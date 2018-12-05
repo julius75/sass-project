@@ -174,7 +174,6 @@ body {
 }
 /* line 10, ../sass/objects/_content.scss */
 .content .content--left {
-  display: grid;
   border: 1px solid;
 }
 
@@ -345,31 +344,31 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 37, ../sass/objects/_content-left.scss */
-.content--left .adds {
-  padding: 15px;
-  background: darkslateblue;
-}
-/* line 42, ../sass/objects/_content-left.scss */
+/* line 38, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-/* line 46, ../sass/objects/_content-left.scss */
+/* line 42, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left {
   display: grid;
   background: burlywood;
   border-right: 1px solid;
 }
-/* line 51, ../sass/objects/_content-left.scss */
+/* line 47, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide {
   display: grid;
   background: wheat;
   margin-top: 1px;
 }
-/* line 55, ../sass/objects/_content-left.scss */
+/* line 51, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .subdivide .space {
   background: teal;
+}
+/* line 54, ../sass/objects/_content-left.scss */
+.content--left .content--left__subdivide .subdivide--left .subdivide .adds {
+  text-align: center;
+  background: lightskyblue;
 }
 /* line 60, ../sass/objects/_content-left.scss */
 .content--left .content--left__subdivide .subdivide--left .images-details {
