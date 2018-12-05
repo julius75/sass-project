@@ -9,6 +9,22 @@
             background: burlywood;
             border-right: 1px solid;
         }
+        .wc-details{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 30% 30% 40%;
+        }
+        .wc-image{
+            grid-row: 1/4;
+            
+        }
+        // .wc-name{
+        //     background: blue;
+        // }
+        // .wc-heading{
+        //     background: red;
+        // }
+
     }
      .adds{
         padding: 15px;
